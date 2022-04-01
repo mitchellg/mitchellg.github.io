@@ -11,7 +11,7 @@ class: home
 <div class="intro" markdown="1">
 Mitchell is a computer science PhD student at [Stanford University](http://www.stanford.edu/) in the [HCI group](http://hci.stanford.edu/), advised by [Michael Bernstein](https://hci.stanford.edu/msb/) and [James Landay](https://www.landay.org/). He designs interactive systems and evaluation approaches that bridge principles of human-computer interaction with the realities of machine learning.
 
-His work has won awards at top conferences in human-computer interaction and artificial intelligence, including a Best Paper award at CHI and an Oral at NeurIPS. He is supported by an Apple PhD Fellowship in AI/ML. Mitchell has interned at [Apple](http://apple.com/), [Google](http://apple.com/), and [CMU HCII](http://www.hcii.cmu.edu/), and holds a bachelor's degree in Computer Science from the [University of Rochester](http://www.rochester.edu/), where he was advised by [Philip Guo](http://www.pgbovine.net/) and [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/).
+His work has won awards at top conferences in human-computer interaction and artificial intelligence, including a Best Paper award at CHI and an Oral at NeurIPS. He is supported by an Apple PhD Fellowship in AI/ML. Mitchell has interned at [Apple](http://apple.com/), [Google](http://apple.com/), and [CMU HCII](http://www.hcii.cmu.edu/), and holds a bachelor's degree in computer science from the [University of Rochester](http://www.rochester.edu/), where he was advised by [Philip Guo](http://www.pgbovine.net/) and [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/).
 </div>
 
 <div class="me" markdown="1">
