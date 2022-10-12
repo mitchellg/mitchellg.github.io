@@ -9,7 +9,7 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm on the job market! I'm looking for tenure-track faculty and industry research scientist postitions starting fall 2023.
+*I'm on the job market! I'm looking for tenure-track faculty and industry research scientist postitions starting fall 2023.*
 
 Mitchell is a computer science PhD student at [Stanford University](http://www.stanford.edu/) in the [HCI group](http://hci.stanford.edu/), advised by [Michael Bernstein](https://hci.stanford.edu/msb/) and [James Landay](https://www.landay.org/). He designs interactive systems and evaluation approaches that bridge principles of human-computer interaction with the realities of statistical machine learning.
 
