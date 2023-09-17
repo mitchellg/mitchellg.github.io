@@ -48,5 +48,3 @@ His work has won awards at top conferences in human-computer interaction and art
   <i class="fas fa-chevron-circle-right"></i>
   Show More Projects
 </a> -->
-
-</div>
