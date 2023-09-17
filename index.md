@@ -26,7 +26,7 @@ His work has won awards at top conferences in human-computer interaction and art
 
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-* Gates 360
+* 365 Gates Center
 * <a href="{{ '/assets/cv.pdf' | relative_url }}">Curriculum vitae</a>
 </div>
 
