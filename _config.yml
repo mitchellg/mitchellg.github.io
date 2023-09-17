@@ -1,6 +1,6 @@
 # Site settings
 title: Mitchell L. Gordon
-email: mgord@cs.stanford.edu
+email: mgord@cs.washington.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mgordon.me" # the base hostname & protocol for your site
