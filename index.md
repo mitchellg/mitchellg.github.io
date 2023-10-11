@@ -9,7 +9,7 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-*I'm joining [MIT EECS/CSAIL](https://www.eecs.mit.edu/) as an assistant professor, starting fall 2024*
+*I'm joining [MIT EECS/CSAIL](https://www.eecs.mit.edu/) as an assistant professor, starting fall 2024. I'm recruiting PhD students, apply to [MIT EECS](https://www.eecs.mit.edu/academics/graduate-programs/admission-process/) by December 15th! *
 
 Hi, I'm a postdoc at the [University of Washington](https://www.cs.washington.edu/) with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Yejin Choi](https://homes.cs.washington.edu/~yejin/). I recently completed my PhD in computer science at [Stanford University](http://www.stanford.edu/) in the [HCI group](http://hci.stanford.edu/), advised by [Michael Bernstein](https://hci.stanford.edu/msb/) and [James Landay](https://www.landay.org/). My research designs interactive systems and evaluation approaches that bridge principles of human-computer interaction with the realities of machine learning. My work has won awards at top conferences in human-computer interaction and artificial intelligence, including a Best Paper award at CHI and an Oral at NeurIPS. My PhD was supported by an [Apple PhD Fellowship in AI/ML](https://machinelearning.apple.com/updates/introducing-apple-scholars-aiml), and I've interned at [Apple](http://apple.com/), [Google](http://apple.com/), and [CMU HCII](http://www.hcii.cmu.edu/).
 </div>
