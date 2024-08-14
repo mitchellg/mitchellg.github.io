@@ -22,8 +22,7 @@ Hi, I'm a researcher at [OpenAI](https://openai.com/) and an incoming assistant 
 
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-* 365 Gates Center
-* <a href="{{ '/assets/cv.pdf' | relative_url }}">Curriculum vitae</a>
+* <a href="{{ '/assets/cv.pdf' | relative_url }}">(outdated) Curriculum vitae</a>
 </div>
 
 </div>
