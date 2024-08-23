@@ -14,9 +14,9 @@ Hi, I'm a researcher at [OpenAI](https://openai.com/) and an incoming assistant 
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/face_3.jpeg' type='image/jpg' />
+  <source srcset='/images/face_3.png' type='image/png' />
   <img
-    src='/images/face_3.jpeg'
+    src='/images/face_3.png'
     alt='Mitchell Gordon'>
 </picture>
 
