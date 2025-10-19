@@ -71,7 +71,7 @@ h2.subtitle {
 h3 {
     font-size: 1.3em;
     font-weight: normal;
-    margin: 35px 0 20px 0;
+    margin: 35px 0 12px 0;
     color: var(--text-color);
 }
 
@@ -87,11 +87,11 @@ a:hover {
 
 /* Publications - Much denser like MSB */
 #publications-list {
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .publication {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .pub-title {
@@ -127,11 +127,11 @@ a:hover {
 
 /* Teaching */
 #teaching-list {
-    margin: 15px 0;
+    margin: 0;
 }
 
 .teaching-item {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     line-height: 1.5;
 }
 
