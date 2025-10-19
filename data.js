@@ -31,7 +31,8 @@ const teaching = [
         term: "Fall 2025",
         course: "6.1040: Software Design",
         institution: "MIT EECS",
-        role: "Instructor"
+        role: "Instructor",
+        url: "https://61040-fa25.github.io/"
     }
 ];
 
@@ -84,11 +85,14 @@ function renderTeaching() {
     const container = document.getElementById('teaching-list');
     if (!container) return;
     
-    container.innerHTML = teaching.map(item => `
-        <div class="teaching-item">
-            <p><strong>${item.term}</strong> ${item.role}, ${item.course}, ${item.institution}</p>
-        </div>
-    `).join('');
+    container.innerHTML = teaching.map(item => {
+        const courseLink = item.url ? `<a href="${item.url}">${item.course}</a>` : item.course;
+        return `
+            <div class="teaching-item">
+                <p><strong>${item.term}</strong> ${item.role}, ${courseLink}, ${item.institution}</p>
+            </div>
+        `;
+    }).join('');
 }
 
 // Initialize when DOM is loaded
