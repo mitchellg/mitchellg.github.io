@@ -41,9 +41,7 @@ function renderPublications() {
     if (!container) return;
     
     container.innerHTML = publications.map(pub => {
-        const authorsList = pub.authors.map(author => 
-            author.includes('Mitchell') ? `<strong>${author}</strong>` : author
-        ).join(', ');
+        const authorsList = pub.authors.join(', ');
         
         const award = pub.award ? ` <span class="award">${pub.award}</span>` : '';
         const titleLink = pub.url ? `<a href="${pub.url}">${pub.title}</a>` : pub.title;
