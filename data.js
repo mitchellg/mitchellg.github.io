@@ -5,7 +5,7 @@ const publications = [
         authors: ["Tyna Eloundou", "Mitchell Gordon", "Eddie Zhang", "Sandhini Agarwal"],
         venue: "OpenAI blog post",
         year: 2025,
-        url: "https://openai.com/index/collective-alignment/"
+        url: "https://openai.com/index/collective-alignment-aug-2025-updates/"
     }
 ];
 
