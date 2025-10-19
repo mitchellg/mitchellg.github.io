@@ -49,13 +49,13 @@ h2.subtitle {
 }
 
 .contact {
-    margin-top: 15px;
-    font-size: 0.95em;
+    margin: 0 0 5px 0;
+    font-size: 0.9em;
 }
 
 .links {
-    margin-top: 8px;
-    font-size: 1em;
+    margin: 0 0 25px 0;
+    font-size: 0.9em;
 }
 
 .bio {
