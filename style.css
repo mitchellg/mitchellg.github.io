@@ -165,7 +165,7 @@ h4 {
 
 /* Students in sidebar - list format like MSB */
 .student-item {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .student-photo {
@@ -175,6 +175,11 @@ h4 {
     object-fit: cover;
     display: block;
     margin-bottom: 8px;
+    transition: opacity 0.2s;
+}
+
+a .student-photo:hover {
+    opacity: 0.8;
 }
 
 .student-photo-placeholder {

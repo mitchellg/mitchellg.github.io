@@ -12,7 +12,7 @@ const publications = [
 // Students data - easy to update!
 const students = [
     {
-        name: "Helen Bang",
+        name: "Hyemin (Helen) Bang",
         type: "phd",
         website: "https://www.hyeminbang.com/",
         image: "images/students/helen.webp"
@@ -63,15 +63,20 @@ function renderStudents() {
     if (!container) return;
     
     container.innerHTML = students.map(student => {
-        const link = student.website ? `<a href="${student.website}">${student.name}</a>` : student.name;
-        const image = student.image ? 
-            `<img src="${student.image}" alt="${student.name}" class="student-photo">` :
-            `<div class="student-photo-placeholder"></div>`;
+        const nameLink = student.website ? `<a href="${student.website}">${student.name}</a>` : student.name;
+        
+        let imageHtml;
+        if (student.image) {
+            const imageTag = `<img src="${student.image}" alt="${student.name}" class="student-photo">`;
+            imageHtml = student.website ? `<a href="${student.website}">${imageTag}</a>` : imageTag;
+        } else {
+            imageHtml = `<div class="student-photo-placeholder"></div>`;
+        }
         
         return `
             <div class="student-item">
-                ${image}
-                <p class="student-name">${link}</p>
+                ${imageHtml}
+                <p class="student-name">${nameLink}</p>
             </div>
         `;
     }).join('');
