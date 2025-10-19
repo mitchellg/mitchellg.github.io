@@ -24,7 +24,7 @@ body {
 .banner {
     width: 100%;
     height: 8px;
-    background: var(--mit-red);
+    background: linear-gradient(to right, var(--mit-red) 0%, var(--mit-red) 50%, #8A8B8C 50%, #8A8B8C 100%);
     margin-bottom: 30px;
 }
 
