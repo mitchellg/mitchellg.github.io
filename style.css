@@ -32,10 +32,10 @@ body {
 }
 
 .page-container {
-    max-width: 1100px;
+    width: 1100px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: 760px 280px;
     gap: 60px;
     padding: 0 40px 30px 40px;
 }
