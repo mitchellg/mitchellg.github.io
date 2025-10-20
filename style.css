@@ -235,20 +235,3 @@ a .student-photo:hover {
     color: var(--mit-red);
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-    .page-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-        padding: 0 20px 20px 20px;
-    }
-
-    .sidebar {
-        order: -1;
-    }
-
-    .profile-photo {
-        max-width: 200px;
-        margin: 0 auto 30px;
-    }
-}
