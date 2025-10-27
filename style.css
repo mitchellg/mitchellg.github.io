@@ -28,16 +28,59 @@ body {
     width: 100%;
     height: 16px;
     background: linear-gradient(to bottom, var(--mit-red) 0%, var(--mit-red) 50%, #8B959E 50%, #8B959E 100%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .banner {
+        margin-bottom: 30px;
+    }
 }
 
 .page-container {
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 760px 280px;
-    gap: 60px;
-    padding: 0 40px 30px 40px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 20px 30px 20px;
+}
+
+/* Desktop layout - three sections in two columns */
+@media (min-width: 768px) {
+    .page-container {
+        grid-template-columns: 1fr 280px;
+        gap: 60px;
+        padding: 0 40px 30px 40px;
+    }
+    
+    .header {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .sidebar {
+        grid-column: 2;
+        grid-row: 1 / 3;
+    }
+    
+    .main-column {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+/* Header */
+.header {
+    min-width: 0;
+    margin-bottom: -10px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        margin-bottom: 0;
+    }
 }
 
 /* Main Column */
@@ -45,11 +88,23 @@ body {
     min-width: 0;
 }
 
+@media (min-width: 768px) {
+    .main-column {
+        margin-top: -35px;
+    }
+}
+
 h1 {
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: normal;
     margin-bottom: 8px;
     color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
 }
 
 h2.subtitle {
@@ -70,9 +125,15 @@ h2.subtitle {
 }
 
 .bio {
-    margin: 25px 0 30px 0;
+    margin: 0 0 30px 0;
     font-size: 1em;
     line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .bio {
+        margin-top: 0;
+    }
 }
 
 .bio p {
@@ -82,8 +143,14 @@ h2.subtitle {
 h3 {
     font-size: 1.3em;
     font-weight: normal;
-    margin: 35px 0 12px 0;
+    margin: 25px 0 12px 0;
     color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    h3 {
+        margin-top: 35px;
+    }
 }
 
 /* Links */
@@ -153,6 +220,7 @@ a:hover {
 /* Sidebar */
 .sidebar {
     min-width: 0;
+    text-align: center;
 }
 
 .sidebar .contact {
@@ -175,9 +243,14 @@ a:hover {
 
 .sidebar-section {
     margin-bottom: 30px;
-    max-width: 220px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .sidebar-section {
+        max-width: 220px;
+    }
 }
 
 h4 {
@@ -192,7 +265,13 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    #students-list {
+        justify-content: flex-start;
+    }
 }
 
 .student-item {
