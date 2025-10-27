@@ -1,6 +1,13 @@
 // Recent highlights - blog post
 const publications = [
     {
+        title: "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models",
+        authors: ["Yu Ying Chiu", "Michael S. Lee", "Rachel Calcott", "Brandon Handoko", "Paul de Font-Reaulx", "Paula Rodriguez", "Chen Bo Calvin Zhang", "Ziwen Han", "Udari Madhushani Sehwag", "Yash Maurya", "Christina Q Knight", "Harry R. Lloyd", "Florence Bacus", "Mantas Mazeika", "Bing Liu", "Yejin Choi", "Mitchell L Gordon", "Sydney Levine"],
+        venue: "arXiv preprint",
+        year: 2025,
+        url: "https://www.arxiv.org/abs/2510.16380"
+    },
+    {
         title: "Collective alignment: public input on our Model Spec",
         authors: ["Tyna Eloundou", "Mitchell Gordon", "Eddie Zhang", "Sandhini Agarwal"],
         venue: "OpenAI blog post",
@@ -46,12 +53,13 @@ function renderPublications() {
         
         const award = pub.award ? ` <span class="award">${pub.award}</span>` : '';
         const titleLink = pub.url ? `<a href="${pub.url}">${pub.title}</a>` : pub.title;
+        const venueWithYear = pub.year ? `${pub.venue}, ${pub.year}` : pub.venue;
         
         return `
             <div class="publication">
                 <p class="pub-title">${titleLink}</p>
                 <p class="pub-authors">${authorsList}</p>
-                <p class="pub-venue"><i>${pub.venue}</i>${award}</p>
+                <p class="pub-venue"><i>${venueWithYear}</i>${award}</p>
             </div>
         `;
     }).join('');
