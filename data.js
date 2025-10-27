@@ -107,6 +107,6 @@ function renderTeaching() {
 document.addEventListener('DOMContentLoaded', function() {
     renderPublications();
     renderStudents();
-    renderTeaching();
+    // renderTeaching();
 });
 
