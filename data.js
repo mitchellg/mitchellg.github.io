@@ -29,6 +29,24 @@ const students = [
         type: "phd",
         website: "https://andre-ye.org/",
         image: "images/students/andre.jpg"
+    },
+    {
+        name: "Elinor Poole-Dayan",
+        type: "phd",
+        website: "https://elinorp-d.github.io/",
+        image: "images/students/elinor.jpg"
+    },
+    {
+        name: "Grace C. Kim",
+        type: "phd",
+        website: "https://gracekimcy.github.io/",
+        image: "images/students/grace.jpg"
+    },
+    {
+        name: "Yi-Hao Peng",
+        type: "postdoc",
+        website: "https://www.yihaopeng.tw/",
+        image: "images/students/yihao.jpg"
     }
 ];
 
@@ -109,4 +127,3 @@ document.addEventListener('DOMContentLoaded', function() {
     renderStudents();
     // renderTeaching();
 });
-
