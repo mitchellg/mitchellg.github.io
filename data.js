@@ -83,11 +83,11 @@ function renderPublications() {
     }).join('');
 }
 
-function renderStudents() {
-    const container = document.getElementById('students-list');
+function renderStudents(type = 'phd', containerId = 'students-list') {
+    const container = document.getElementById(containerId);
     if (!container) return;
     
-    container.innerHTML = students.map(student => {
+    container.innerHTML = students.filter(student => student.type === type).map(student => {
         const nameLink = student.website ? `<a href="${student.website}">${student.name}</a>` : student.name;
         
         let imageHtml;
@@ -125,5 +125,6 @@ function renderTeaching() {
 document.addEventListener('DOMContentLoaded', function() {
     renderPublications();
     renderStudents();
+    renderStudents('postdoc', 'postdocs-list');
     // renderTeaching();
 });
