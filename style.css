@@ -317,6 +317,10 @@ a .student-photo:hover {
     color: var(--light-gray);
 }
 
+.student-item:has(.student-note) {
+    align-items: start;
+}
+
 .postdocs-heading {
     margin-top: 16px;
 }
