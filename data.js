@@ -630,6 +630,7 @@ const students = [
     },
     {
         name: "Yi-Hao Peng",
+        note: "Co-advised with Arvind Satyanarayan and Zana Buçinca",
         type: "postdoc",
         website: "https://www.yihaopeng.tw/",
         image: "images/students/yihao.jpg"
