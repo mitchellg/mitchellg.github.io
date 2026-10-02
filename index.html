@@ -44,8 +44,26 @@
                 <p>My research designs interactive systems, models, and evaluations for AI alignment and safety. My work has been recognized with best paper awards at CHI and CSCW, an oral at NeurIPS, and Stanford’s Arthur Samuel Award for Best PhD Dissertation in Computer Science. I hold a PhD in computer science from Stanford.</p>                
             </div>
 
-            <h3>Recent Highlights</h3>
-            <div id="publications-list">
+            <div class="research-interests">
+                <p>Some directions I’m interested in working on:</p>
+                <ul>
+                    <li><strong>Reinforcement learning from interaction.</strong> How can reinforcement learning use richer signals from human interaction to improve AI behavior?</li>
+                    <li><strong>User modeling and longitudinal interaction.</strong> How can AI model people’s goals, knowledge, and preferences across repeated interactions—and help them figure out what they want as those interactions unfold?</li>
+                    <li><strong>Pluralistic and collective alignment.</strong> How should AI behave when people disagree, and how can people meaningfully shape that behavior?</li>
+                    <li><strong>Evaluation.</strong> How can we measure whether AI helps people think, decide, and act well over time?</li>
+                </ul>
+            </div>
+
+            <h3 id="publications">Publications</h3>
+            <div id="publication-tabs" role="tablist" aria-label="Publication topics">
+                <button type="button" role="tab" id="tab-all" data-category="all" aria-controls="publications-list" aria-selected="true" tabindex="0">All</button>
+                <button type="button" role="tab" id="tab-interaction" data-category="interaction" aria-controls="publications-list" aria-selected="false" tabindex="-1">Human–AI Interaction</button>
+                <button type="button" role="tab" id="tab-pluralistic" data-category="pluralistic" aria-controls="publications-list" aria-selected="false" tabindex="-1">Pluralistic &amp; Collective Alignment</button>
+                <button type="button" role="tab" id="tab-evaluation" data-category="evaluation" aria-controls="publications-list" aria-selected="false" tabindex="-1">Evaluation &amp; Understanding</button>
+                <button type="button" role="tab" id="tab-social" data-category="social" aria-controls="publications-list" aria-selected="false" tabindex="-1">Social Computing</button>
+                <button type="button" role="tab" id="tab-input" data-category="input" aria-controls="publications-list" aria-selected="false" tabindex="-1">Misc</button>
+            </div>
+            <div id="publications-list" role="tabpanel" aria-labelledby="tab-all" tabindex="0">
                 <!-- Publications loaded from data.js -->
             </div>
 

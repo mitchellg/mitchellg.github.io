@@ -311,6 +311,51 @@ a .student-photo:hover {
     color: var(--mit-red);
 }
 
+.student-note {
+    display: block;
+    font-size: 12px;
+    color: var(--light-gray);
+}
+
 .postdocs-heading {
     margin-top: 16px;
 }
+
+/* Year labels within the publication list. */
+.publication-year { font-size: 1em; font-weight: 500; margin: 24px 0 12px; }
+
+/* Publication topic tabs use the site's existing type and colors. */
+#publication-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 18px;
+    margin: 0 0 16px;
+    border-bottom: 1px solid #ddd;
+}
+#publication-tabs button {
+    appearance: none;
+    font: inherit;
+    font-size: 0.85em;
+    color: var(--light-gray);
+    background: none;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    padding: 6px 0;
+    cursor: pointer;
+    text-align: left;
+}
+#publication-tabs button:hover { color: var(--mit-red); }
+#publication-tabs button[aria-selected="true"] {
+    color: var(--mit-red);
+    border-bottom-color: var(--mit-red);
+}
+#publication-tabs button:focus-visible, #publications-list:focus-visible {
+    outline: 2px solid var(--mit-red);
+    outline-offset: 3px;
+}
+
+/* Research directions, using the existing body typography. */
+.research-interests { margin: 0 0 30px; line-height: 1.6; }
+.research-interests ul { padding-left: 20px; margin-top: 10px; }
+.research-interests li { margin-bottom: 10px; }
+.research-interests strong { font-weight: 500; }
