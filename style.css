@@ -242,7 +242,7 @@ a:hover {
 }
 
 .sidebar-section {
-    max-width: 220px;
+    max-width: 280px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -250,7 +250,7 @@ a:hover {
 
 @media (min-width: 768px) {
     .sidebar-section {
-        max-width: 220px;
+        max-width: 280px;
     }
 }
 
@@ -259,7 +259,7 @@ a:hover {
     font-weight: normal;
     line-height: 1.4;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     color: var(--light-gray);
 }
 
@@ -267,14 +267,15 @@ a:hover {
 #students-list,
 #postdocs-list {
     display: grid;
-    gap: 4px;
+    gap: 12px;
 }
 
 .student-item {
     display: grid;
     grid-template-columns: 32px minmax(0, 1fr);
-    align-items: center;
-    gap: 7px;
+    align-items: start;
+    min-height: 32px;
+    gap: 8px;
     text-align: left;
 }
 
@@ -303,7 +304,9 @@ a .student-photo:hover {
 
 .student-name {
     font-size: 13px;
-    line-height: 1.4;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
     text-align: left;
 }
 
@@ -312,20 +315,11 @@ a .student-photo:hover {
 }
 
 .student-note {
-    display: block;
+    display: inline;
     font-size: 12px;
-    color: var(--light-gray);
-}
-
-.student-item:has(.student-note) {
-    align-items: start;
-    padding-bottom: 4px;
-}
-
-.student-item:has(.student-note) .student-name > a {
-    display: flex;
-    align-items: center;
-    min-height: 32px;
+    line-height: 18px;
+    color: #777;
+    margin: 0;
 }
 
 .postdocs-heading {

@@ -617,7 +617,7 @@ const students = [
     },
     {
         name: "Elinor Poole-Dayan",
-        note: "Co-advised with Jacob Andreas and Michiel Bakker",
+        note: "Co‑advised with Jacob Andreas and Michiel Bakker",
         type: "phd",
         website: "https://elinorp-d.github.io/",
         image: "images/students/elinor.jpg"
@@ -630,7 +630,7 @@ const students = [
     },
     {
         name: "Yi-Hao Peng",
-        note: "Co-advised with Arvind Satyanarayan and Zana Buçinca",
+        note: "Co‑advised with Arvind Satyanarayan and Zana Buçinca",
         type: "postdoc",
         website: "https://www.yihaopeng.tw/",
         image: "images/students/yihao.jpg"
@@ -693,7 +693,7 @@ function renderStudents(type = 'phd', containerId = 'students-list') {
         return `
             <div class="student-item">
                 ${imageHtml}
-                <p class="student-name">${nameLink}${student.note ? `<span class="student-note">${student.note}</span>` : ''}</p>
+                <p class="student-name">${nameLink}${student.note ? ` <span class="student-note">(${student.note.charAt(0).toLowerCase() + student.note.slice(1)})</span>` : ''}</p>
             </div>
         `;
     }).join('');
