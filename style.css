@@ -319,6 +319,13 @@ a .student-photo:hover {
 
 .student-item:has(.student-note) {
     align-items: start;
+    padding-bottom: 4px;
+}
+
+.student-item:has(.student-note) .student-name > a {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
 }
 
 .postdocs-heading {
